@@ -8,7 +8,7 @@ int main() {
     cout << "Enter a number: ";
     cin >> number;
 
-    // Handle 0 explicitly
+ 
     if (number == 0) {
         count = 1;
     } else {
