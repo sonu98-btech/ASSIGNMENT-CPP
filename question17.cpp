@@ -12,7 +12,6 @@ int main() {
     cout << "Leap years between " << startYear << " and " << endYear << " are:" << endl;
 
     for (int year = startYear; year <= endYear; year++) {
-        // Leap year condition
         if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
             cout << year << " ";
         }
